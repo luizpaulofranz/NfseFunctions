@@ -25,29 +25,29 @@ abstract class NfseFunctions{
     private $URLTransfMeth_1='http://www.w3.org/2000/09/xmldsig#enveloped-signature';
     private $URLTransfMeth_2='http://www.w3.org/TR/2001/REC-xml-c14n-20010315';
     private $URLDigestMeth='http://www.w3.org/2000/09/xmldsig#sha1';
-    //nome emitente (imobiliaria)
+    //nome emitente 
     protected $nomeEmi='';
-    //UF do emitente (imobiliaria)
+    //UF do emitente 
     protected $UFEmi='';
-    //CNPJ do emitente (imobiliaria)
+    //CNPJ do emitente 
     protected $cnpjEmi='';
-    //Inscricao Estadual do emitente (imobiliaria)
+    //Inscricao Estadual do emitente 
     protected $inscricaoEstadualEmi='';
-    //Inscricao Municipal do emitente (imobiliaria)
+    //Inscricao Municipal do emitente
     protected $inscricaoMunicipalEmi='';
     //vencimento do certificado no formato timestamp
     protected $pfxTimestamp='';
-    //obj imobiliaria
-    protected $imobi='';
-    //obj configuracoes imobiliaria
-    protected $confImobi='';
-    //configuracao imobiliaria optante simples nacional
+    //obj emitente
+    protected $emitente='';
+    //obj configuracoes emitente
+    protected $confEmitente='';
+    //configuracao emitente optante simples nacional
     protected $optanteSimplesNacional='';
     //Valor da aliquota do iss
     protected $aliquotaIss=0;
     //quantidade de notas enviadas
     protected $quantidadeRps=1;
-    //Raiz dos diretorios dentro da pasta httpdocs
+    //Raiz dos diretorios
     protected $raizDir='';
     //String do xml da nota
     protected $nfsexml='';
