@@ -8,3 +8,5 @@ Essa classe está incompleta, e passível de modificações.
 Esse projeto surgiu em resposta aos vários pedidos de ajuda que recebo de outros desenvolvedores para desenvolver essa funcionalidade em seus sistemas.
 Assim disponibilizo uma classe que utilizada para o envio, consulta e cancelamento de NFS-e a princípio para o sistema de recepção da Betha Sistemas, porém a classe já tem estrutura para abrigar mais sistemas receptores.
 Assim sendo, a comunidade é bem vinda a contribuir nesse projeto.
+
+Essa classe PRECISA de refatoração, desenvolvi a alguns anos quando não tinha noções de POO, portanto ela tem suas quase 2000 linhas, o que é obviamente um indício de que há algo errado.
